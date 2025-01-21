@@ -1,0 +1,11 @@
+name: application
+channels:
+  - conda-forge
+dependencies:
+  - flask
+  - flask-sqlalchemy
+  - flask-restful
+  - requests
+  - pip
+  - pip:
+    - ipytest
